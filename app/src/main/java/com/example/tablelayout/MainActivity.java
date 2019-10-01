@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void allClear(View v){
-        display.setText("0.0");
+        display.setText("0");
         operatorCalc.clearOperands();
     }
     public void goOperator(View v) {
@@ -45,3 +45,4 @@ public class MainActivity extends AppCompatActivity {
         display.setText(operatorCalc.getValue().toString());
     }
 }
+//HAI
