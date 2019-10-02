@@ -45,4 +45,3 @@ public class MainActivity extends AppCompatActivity {
         display.setText(operatorCalc.getValue().toString());
     }
 }
-//HaI
